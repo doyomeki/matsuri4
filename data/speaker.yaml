@@ -1,0 +1,20 @@
+- id: shiraco
+  fullname: "Koji Shiraishi"
+  organization: "TIS STC."
+  title: "TISエンジニアたちの自分戦略"
+  url: " "
+  avatar: "assets/img/speaker/shiraco.png"
+
+- id: minoruntw
+  fullname: "Minoru Naito"
+  organization: "TIS GIS."
+  title: "クラウドとSIerの未来"
+  url: " "
+  avatar: "assets/img/speaker/minoruntw.jpg"
+
+- id: yktko
+  fullname: "Yukitaka Ohmura"
+  organization: "インテック ."
+  title: "クラウドとSIerの未来"
+  url: " "
+  avatar: "assets/img/speaker/yktko.jpg"
