@@ -32,16 +32,28 @@ layout    : layout
       .col4
         %h2 When?
         %p
+          12月15日
+          %br
+          19:00-(open 18:30)
+          %br
+          %br
           Mon, December 15
           %br
-          at 7:00pm (6:30pm door open)
+          at 19:00 (18:30 door open)
 
       .col4
         %h2 How?
         %p
-          ITHDの方はSTC 白石、CT推 吉村まで、ご連絡下さい。
-        %a{href: "https://www.skipaas.com/tenants/39/events/465", class: "btn-green", target: "_blank"}
-          Register
+          - data.contact.each do |c|
+            ITHDの方は
+            %a{href: "#{c.twitter}", target: "_blank"}
+              @shiraco
+            %br
+            社内の方は
+            %a{href: "#{c.url}", target: "_blank"}
+              Copla
+            %br
+            お問い合わせ下さい。
 
     %section#section-time-table.cols
       %h1 Time table
@@ -57,10 +69,10 @@ layout    : layout
               .body
                 - if tt.url.present?
                   %a{href: "#{tt.url}", target: "_blank"}
-                    #{tt.body}
+                    #{tt.title}
                     %i.icon-external-link
                 - else
-                  = tt.body
+                  = tt.title
 
     %section#section-speaker.cols
       %h1 Speaker
