@@ -66,13 +66,18 @@ layout    : layout
                   = tt.time
                 .speaker-name
                   = tt.speaker
-              .body
+              .title
                 - if tt.url.present?
                   %a{href: "#{tt.url}", target: "_blank"}
                     #{tt.title}
                     %i.icon-external-link
+                    %br
+                    #{tt.body}
                 - else
                   = tt.title
+                  %br
+                .body
+                  = tt.body
 
     %section#section-speaker.cols
       %h1 Speaker
