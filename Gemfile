@@ -33,3 +33,6 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw]
 
 # for travis to github
 gem 'travis'
+
+gem 'execjs'
+gem 'therubyracer'
