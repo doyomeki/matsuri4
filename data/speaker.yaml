@@ -1,0 +1,23 @@
+- id: chris4403
+  fullname: "Yoshiomi Kurisu"
+  profile: "1978年鹿児島生まれ。大阪大学原子力工学科卒業後、TISに就職。 2008年にエンジニアとしてはてなに入社。 2014年に代表取締役社長に就任。"
+  organization: "Hatena"
+  title: "TISで学んだ大切なこと"
+  url: " "
+  avatar: "assets/img/speaker/kurisu.jpg"
+
+- id: papanda
+  fullname: "Toshihiro Ichitani"
+  profile: "2001年、関西で組み込み系のプログラマーからキャリアをスタート。 2006年TISに入社。 2007年TISKaigi第1回を6人の仲間(藤原、川島さん、五味さん、竹本、 近江さん、橘さん)とともに開催。2009年まで3回開催した。 2014年4月より3人の同志(1人は中村洋)とともにギルドワークス株式会 社を設立。TIS在籍時(2008年6月21日)に、RubyKaigiに行った帰り道 に竹本(TIS退職済)とともに立ち上げたDevLOVEという社内コミュニティが その後オープン化し、現在全国4000名が参加するコミュニティとなっており 、TISを退職してもなお運営を続けている。 訳書に「リーン開発の現場」がある。"
+  organization: "GuildWorks"
+  title: "Can We Change The World?"
+  url: " "
+  avatar: "assets/img/speaker/ichitani.jpg"
+
+- id:
+  fullname: "Hironori Tachibana"
+  profile: "大学でコンピュータプログラミングの面白さにハマって1986年TIS入社。 受注開発ビジネスに長く従事した後、5年前から本社系。 現在は運用ビジネスの現場を分析して生産性向上施策を企画する仕 事をしている。趣味は自転車競技と登山。"
+  organization: "TIS"
+  title: "予実一致ドグマの向こう側"
+  url: " "
+  avatar: "assets/img/speaker/tachibana.jpg"
