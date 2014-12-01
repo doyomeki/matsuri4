@@ -4,7 +4,7 @@
   organization: "Hatena"
   title: "TISで学んだ大切なこと"
   url: " "
-  avatar: "assets/img/speaker/kurisu.jpg"
+  avatar: "assets/img/speaker/kurisu1-01.png"
 
 - id: papanda
   fullname: "市谷聡啓 氏 Toshihiro Ichitani"
@@ -12,7 +12,7 @@
   organization: "GuildWorks"
   title: "Can We Change The World?"
   url: " "
-  avatar: "assets/img/speaker/ichitani.jpg"
+  avatar: "assets/img/speaker/ichitani1-01.png"
 
 - id:
   fullname: "橘浩則 氏 Hironori Tachibana"
@@ -20,4 +20,4 @@
   organization: "TIS"
   title: "予実一致ドグマの向こう側"
   url: " "
-  avatar: "assets/img/speaker/tachibana.jpg"
+  avatar: "assets/img/speaker/tachibana1.png"
