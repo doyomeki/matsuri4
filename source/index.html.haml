@@ -113,9 +113,9 @@ layout    : layout
 
       .col
         %p
-          懇親会LTを行います。
+          ビールと軽食を用意した上での懇親会LTを予定しています。
           %br
-            発表の順序は下記の通りになります。
+            ※順序、タイトル、概要は変更となる可能性があります。
         %ul.lt-list
           - data.lt.each do |lt|
             %li
@@ -124,15 +124,20 @@ layout    : layout
                   = lt.order
                 .speaker-name
                   - if lt.id.present?
-                    %a{href: "https://twitter.com/#{lt.id}", target: "_blank"} #{lt.id}
+                    %a{href: "https://twitter.com/#{lt.id}", target: "_blank"} @#{lt.id}
                   - elsif lt.name.present?
                     #{lt.name}
                   - else
-              .body
+              .title
                 - if lt.url.present?
                   %a{href: "#{lt.url}", target: "_blank"}
+                    #{lt.title}
+                    %br
                     #{lt.body}
                 - else
+                  = lt.title
+                  %br
+                .body
                   = lt.body
 
     %section#section-team.cols
